@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    >
+
+    <RelativeLayout
+        android:id="@+id/headerRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        >
+
+        <Button
+            android:id="@+id/backArrow_butt_APR"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#D5D5D5"
+            android:text="Progress Report"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerRelativeLayout"
+        android:layout_marginTop="10dp"
+        android:weightSum="100"
+        >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#5F5F5F"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textColor="#D7D7D7"
+                android:text="Exercise"
+                />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="0dp"
+            android:layout_weight="17"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#5F5F5F">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/emptyAnchorView1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="Top Pitch"
+                android:textColor="#D7D7D7"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/emptyAnchorView1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emptyAnchorView1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Score"
+                android:textColor="#D7D7D7"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="17"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#5F5F5F"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/emptyAnchorView2"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:textColor="#D7D7D7"
+                android:text="Top Tempo"
+                />
+
+            <View
+                android:id="@+id/emptyAnchorView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emptyAnchorView2"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#D7D7D7"
+                android:text="Score"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/progressReports_recv_APR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="10dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

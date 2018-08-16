@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="song_is_loading">Song is loading...</string>
+
+    <string name="loaded">Loaded</string>
+
+    <string-array name="notes">
+        <item>B4</item>
+        <item>A#4</item>
+        <item>A4</item>
+        <item>G#4</item>
+        <item>G4</item>
+        <item>F#4</item>
+        <item>F4</item>
+        <item>E4</item>
+        <item>D#4</item>
+        <item>D4</item>
+        <item>C#4</item>
+        <item>C4</item>
+        <item>B3</item>
+        <item>A#3</item>
+        <item>A3</item>
+        <item>G#3</item>
+        <item>G3</item>
+        <item>F#3</item>
+        <item>F3</item>
+        <item>E3</item>
+        <item>D#3</item>
+        <item>D3</item>
+        <item>C#3</item>
+        <item>C3</item>
+        <item>B2</item>
+        <item>A#2</item>
+        <item>A2</item>
+        <item>G#2</item>
+        <item>G2</item>
+        <item>F#2</item>
+        <item>F2</item>
+        <item>E2</item>
+        <item>D#2</item>
+        <item>D2</item>
+        <item>C#2</item>
+        <item>C2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Android\Andriod\singapp-android\SingApp.iml" filepath="C:\Android\Andriod\singapp-android\SingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingApp_02.04.2018.iml" filepath="$PROJECT_DIR$/SingApp_02.04.2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Android\singapp-android-27.11.2017\app\app.iml" filepath="D:\Android\singapp-android-27.11.2017\app\app.iml" />
+      <module fileurl="file://C:\Android\Andriod\singapp-android\app\app.iml" filepath="C:\Android\Andriod\singapp-android\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blurKidinov/blurKidinov.iml" filepath="$PROJECT_DIR$/blurKidinov/blurKidinov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/midiLib/midiLib.iml" filepath="$PROJECT_DIR$/midiLib/midiLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenRecorder/screenRecorder.iml" filepath="$PROJECT_DIR$/screenRecorder/screenRecorder.iml" />
+      <module fileurl="file://D:\Android\singapp-android-27.11.2017\singapp-android.iml" filepath="D:\Android\singapp-android-27.11.2017\singapp-android.iml" />
+      <module fileurl="file://C:\Android\Andriod\SingApp_05.02.2018_copy\singapp-android-27.11.2017.iml" filepath="C:\Android\Andriod\SingApp_05.02.2018_copy\singapp-android-27.11.2017.iml" />
+    </modules>
+  </component>
+</project>
